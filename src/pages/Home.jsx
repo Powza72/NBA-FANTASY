@@ -95,10 +95,12 @@ function Home() {
             </Link>
           </Reveal>
           <Reveal delay={120}>
+          <Link to="/players" className="hover:text-yellow-400 transition">
             <div className="bg-gray-900 border border-gray-700 rounded-lg p-5 hover:border-yellow-400 transition">
-            <h4 className="font-bold mb-2 text-yellow-400">Set Lineup</h4>
-            <p className="text-gray-300 text-sm">Pick starters before tip-off. You can swap on off-days.</p>
+            <h4 className="font-bold mb-2 text-yellow-400">Team of the Week</h4>
+            <p className="text-gray-300 text-sm">Set your lineup, watch the games, and dominate the week.</p>
             </div>
+          </Link>
           </Reveal>
           <Reveal delay={240}>
             <div className="bg-gray-900 border border-gray-700 rounded-lg p-5 hover:border-yellow-400 transition">

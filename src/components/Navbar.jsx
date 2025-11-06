@@ -15,7 +15,7 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-6">
           <li><Link to="/" className="hover:text-yellow-400 transition">Home</Link></li>
           <li><Link to="/team" className="hover:text-yellow-400 transition">Teams</Link></li>
-          <li><Link to="/players" className="hover:text-yellow-400 transition">Players</Link></li>
+          <li><Link to="/players" className="hover:text-yellow-400 transition">Team of the Week</Link></li>
           <li><Link to="/fantasy" className="hover:text-yellow-400 transition">Fantasy</Link></li>
         </ul>
 
@@ -46,7 +46,7 @@ const Navbar = () => {
           <ul className="flex flex-col items-center space-y-4 py-4">
             <li><Link to="/" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 transition">Home</Link></li>
             <li><Link to="/team" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 transition">Teams</Link></li>
-            <li><Link to="/players" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 transition">Players</Link></li>
+            <li><Link to="/players" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 transition">Team of the Week</Link></li>
             <li><Link to="/fantasy" onClick={() => setIsOpen(false)} className="hover:text-yellow-400 transition">Fantasy</Link></li>
           </ul>
         </div>

@@ -350,6 +350,7 @@
     {
       "team": "Chicago Bulls",
       "name": "Chicago Bulls",
+      "BG": "bg-red-600",
       "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/chi.png",
       "abbr": "CHI",
       "players": [
@@ -362,6 +363,431 @@
         { "name": "Matas Buzelis", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641824.png", "age": 21, "jerseyNumber": 14, "ppg": 14.9, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
         { "name": "Jalen Smith", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630188.png", "age": 25, "jerseyNumber": 25, "ppg": 9.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
         { "name": "Tre Jones", "position": "SG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630200.png", "age": 25, "jerseyNumber": 30, "ppg": 11.6, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Atlanta Hawks",
+      "name": "Atlanta Hawks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+      "abbr": "ATL",
+      "players": [
+        { "name": "Trae Young", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629027.png?u=1?u=20231219", "age": 27, "jerseyNumber": 11, "ppg": 17.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kristaps Porziņģis", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/204001.png?u=1?u=20231219", "age": 30, "jerseyNumber": 8, "ppg": 17.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Nickeil Alexander-Walker", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629638.png?u=1?u=20231219", "age": 27, "jerseyNumber": 7, "ppg": 17.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Dyson Daniels", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630700.png?u=1?u=20231219", "age": 22, "jerseyNumber": 5, "ppg": 10.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "N'Faly Dante", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642368.png?u=1?u=20231219", "age": 24, "jerseyNumber": 12, "ppg": 1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Jalen Johnson", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630552.png?u=1?u=20231219", "age": 23, "jerseyNumber": 1, "ppg": 20.6, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Onyeka Okongwu", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630168.png?u=1?u=20231219", "age": 24, "jerseyNumber": 17, "ppg": 13.9, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Zaccharie Risacher", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642258.png?u=1?u=20231219", "age": 20, "jerseyNumber": 10, "ppg": 10.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Jacob Toppin", "position": "SF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631210.png?u=1?u=20231219", "age": 25, "jerseyNumber": 0, "ppg": 1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Brooklyn Nets",
+      "name": "Brooklyn Nets",
+      "logo": "https://brooklynse.net/bkn/assets/logo/BKN.svg",
+      "abbr": "BKN",
+      "players": [
+        { "name": "Ziaire Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/260x190/1630533.png", "age": 24, "jerseyNumber": 1, "ppg": 17.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Danny Wolf", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642874.png", "age": 21, "jerseyNumber": 2, "ppg": 17.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Drake Powell", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642962.png", "age": 20, "jerseyNumber": 4, "ppg": 17.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Terance Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629611.png", "age": 29, "jerseyNumber": 14, "ppg": 10.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Michael Porter Jr.", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629008.png", "age": 27, "jerseyNumber": 17, "ppg": 1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Day'Ron Sharpe", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630549.png", "age": 24, "jerseyNumber": 20, "ppg": 20.6, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Noah Clowney", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641730.png", "age": 21, "jerseyNumber": 21, "ppg": 13.9, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Nic Claxton", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629651.png", "age": 26, "jerseyNumber": 33, "ppg": 10.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Cam Thomas", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630560.png", "age": 24, "jerseyNumber": 24, "ppg": 1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Cleveland Cavaliers",
+      "name": "Cleveland Cavaliers",
+      "logo": "https://cdn.nba.com/logos/nba/1610612739/primary/D/logo.svg",
+      "abbr": "CAVS",
+      "players": [
+        { "name": "Donovan Mitchell", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628378.png", "age": 29, "jerseyNumber": 45, "ppg": 31.9, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Jarrett Allen", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628386.png", "age": 27, "jerseyNumber": 31, "ppg": 15.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Evan Mobley", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630596.png", "age": 24, "jerseyNumber": 4, "ppg": 19.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Lonzo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628366.png", "age": 28, "jerseyNumber": 2, "ppg": 5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Thomas Bryant.", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628418.png", "age": 28, "jerseyNumber": 3, "ppg": 1.6, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Sam Merrill", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630241.png", "age": 29, "jerseyNumber": 5, "ppg": 16.6, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Craig Porter Jr.", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641854.png", "age": 25, "jerseyNumber": 9, "ppg": 5.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Darius Garland", "position": "SG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629636.png", "age": 25, "jerseyNumber": 10, "ppg": 8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "De'Andre Hunter", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629631.png", "age": 27, "jerseyNumber": 12, "ppg": 18.4, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Charlotte Hornets",
+      "name": "Charlotte Hornets",
+      "logo": "https://cdn.nba.com/logos/nba/1610612766/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "New York Knicks",
+      "name": "New York Knicks",
+      "logo": "https://cdn.nba.com/logos/nba/1610612752/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Detroit Pistons",
+      "name": "Detroit Pistons",
+      "logo": "https://cdn.nba.com/logos/nba/1610612765/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Miami Heat",
+      "name": "Miami Heat",
+      "logo": "https://cdn.nba.com/logos/nba/1610612748/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Philadelphia 76ers",
+      "name": "Philadelphia 76ers",
+      "logo": "https://cdn.nba.com/logos/nba/1610612755/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Indiana Pacers",
+      "name": "Indiana Pacers",
+      "logo": "https://cdn.nba.com/logos/nba/1610612754/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Orlando Magic",
+      "name": "Orlando Magic",
+      "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/orl.png",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Toronto Raptors",
+      "name": "Toronto Raptors",
+      "logo": "https://cdn.nba.com/logos/nba/1610612761/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Washington Wizards",
+      "name": "Washington Wizards",
+      "logo": "https://cdn.nba.com/logos/nba/1610612764/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Denver Nuggets",
+      "name": "Denver Nuggets",
+      "logo": "https://cdn.nba.com/logos/nba/1610612743/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Dallas Mavericks",
+      "name": "Dallas Mavericks",
+      "logo": "https://cdn.nba.com/logos/nba/1610612742/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Minnesota Timberwolves",
+      "name": "Minnesota Timberwolves",
+      "logo": "https://cdn.nba.com/logos/nba/1610612750/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "LA Clippers",
+      "name": "LA Clippers",
+      "logo": "https://cdn.nba.com/logos/nba/1610612746/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Houston Rockets",
+      "name": "Houston Rockets",
+      "logo": "https://cdn.nba.com/logos/nba/1610612745/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Los Angeles Lakers",
+      "name": "Los Angeles Lakers",
+      "logo": "https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Memphis Grizzlies",
+      "name": "Memphis Grizzlies",
+      "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/mem.png",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Portland Trail Blazers",
+      "name": "Portland Trail Blazers",
+      "logo": "https://cdn.nba.com/logos/nba/1610612757/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Phoenix Suns",
+      "name": "Phoenix Suns",
+      "logo": "https://cdn.nba.com/logos/nba/1610612756/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "New Orleans Pelicans",
+      "name": "New Orleans Pelicans",
+      "logo": "https://cdn.nba.com/logos/nba/1610612740/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Utah Jazz",
+      "name": "Utah Jazz",
+      "logo": "https://cdn.nba.com/logos/nba/1610612762/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "Sacramento Kings",
+      "name": "Sacramento Kings",
+      "logo": "https://cdn.nba.com/logos/nba/1610612758/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
+      ]
+    },
+    {
+      "team": "San Antonio Spurs",
+      "name": "San Antonio Spurs",
+      "logo": "https://cdn.nba.com/logos/nba/1610612759/global/L/logo.svg",
+      "abbr": "CHA",
+      "players": [
+        { "name": "Miles Bridges", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628970.png", "age": 27, "jerseyNumber": 0, "ppg": 21.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "LaMelo Ball", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png", "age": 24, "jerseyNumber": 1, "ppg": 23.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Grant Williams", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png", "age": 26, "jerseyNumber": 2, "ppg": 0, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Collin Sexton", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png", "age": 26, "jerseyNumber": 8, "ppg": 16.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Kon Knueppel", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png", "age": 20, "jerseyNumber": 7, "ppg": 14.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Tre Mann", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630544.png", "age": 24, "jerseyNumber": 23, "ppg": 10, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Mason Plumlee", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png", "age": 35, "jerseyNumber": 22, "ppg": 0.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Brandon Miller", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png", "age": 22, "jerseyNumber": 24, "ppg": 14.5, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Liam McNeeley", "position": "PF", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642862.png", "age": 20, "jerseyNumber": 33, "ppg": 2.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } }
       ]
     }
   ]
