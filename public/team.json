@@ -111,7 +111,7 @@
           "age": 30,
           "jerseyNumber": 34,
           "ppg": 32.3,
-          "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 }
+          "stats": { "points": 24, "rebounds": 12, "assists": 30, "steals": 2, "blocks": 15, "turnovers": 0 }
         },
         {
           "name": "Kyle Kuzma",
@@ -371,7 +371,7 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
       "abbr": "ATL",
       "players": [
-        { "name": "Trae Young", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629027.png?u=1?u=20231219", "age": 27, "jerseyNumber": 11, "ppg": 17.8, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
+        { "name": "Trae Young", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629027.png?u=1?u=20231219", "age": 27, "jerseyNumber": 11, "ppg": 17.8, "stats": { "points": 20, "rebounds": 20, "assists": 20, "steals": 20, "blocks": 20, "turnovers": 20 } },
         { "name": "Kristaps Porziņģis", "position": "C", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/204001.png?u=1?u=20231219", "age": 30, "jerseyNumber": 8, "ppg": 17.7, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
         { "name": "Nickeil Alexander-Walker", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629638.png?u=1?u=20231219", "age": 27, "jerseyNumber": 7, "ppg": 17.3, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },
         { "name": "Dyson Daniels", "position": "PG", "img": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630700.png?u=1?u=20231219", "age": 22, "jerseyNumber": 5, "ppg": 10.1, "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 } },

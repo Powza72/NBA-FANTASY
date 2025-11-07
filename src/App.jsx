@@ -4,6 +4,7 @@ import Players from './pages/Players'
 import Home from './pages/Home'
 import Team from './pages/Team'
 import TeamDetail from './pages/TeamDetail'
+import Fantasy from './pages/Fantasy'
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/team/:abbr" element={<TeamDetail />} />
           <Route path="/players" element={<Players />} />
+          <Route path="/Fantasy" element={<Fantasy/>}/>
         </Routes>
         
       </div>

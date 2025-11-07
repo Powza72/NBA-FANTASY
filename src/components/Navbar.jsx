@@ -16,7 +16,7 @@ const Navbar = () => {
           <li><Link to="/" className="hover:text-yellow-400 transition">Home</Link></li>
           <li><Link to="/team" className="hover:text-yellow-400 transition">Teams</Link></li>
           <li><Link to="/players" className="hover:text-yellow-400 transition">Team of the Week</Link></li>
-          <li><Link to="/fantasy" className="hover:text-yellow-400 transition">Fantasy</Link></li>
+          <li><Link to="/Fantasy" className="hover:text-yellow-400 transition">Fantasy</Link></li>
         </ul>
 
         {/* Mobile Menu Button */}
