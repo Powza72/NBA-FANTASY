@@ -41,6 +41,11 @@ export default function TeamCard({ player, team }) {
       return;
     }
 
+    if (Object.values(player.stats).some(value => value > 0)) {
+      alert("You can't select right now!!");
+      return;
+    }
+
     // เพิ่มผู้เล่นใหม่
     const updatedPlayers = [...savedPlayers, player];
     localStorage.setItem("fantasyPlayers", JSON.stringify(updatedPlayers));
