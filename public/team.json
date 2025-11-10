@@ -14,6 +14,7 @@
           "jerseyNumber": 0,
           "ppg": 26.8,
           "price": 54,
+          "video": "/photo/tatum.mp4" ,
           "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 }
         },
         {
@@ -122,6 +123,7 @@
           "jerseyNumber": 34,
           "ppg": 33.4,
           "price": 62,
+          "video":"/photo/YANIS.mp4",
           "stats": { "points": 0, "rebounds": 0, "assists": 0, "steals": 0, "blocks": 0, "turnovers": 0 }
         },
         {

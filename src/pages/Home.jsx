@@ -103,10 +103,12 @@ function Home() {
           </Link>
           </Reveal>
           <Reveal delay={240}>
+          <Link to="/Fantasy" className="hover:text-yellow-400 transition">
             <div className="bg-gray-900 border border-gray-700 rounded-lg p-5 hover:border-yellow-400 transition">
             <h4 className="font-bold mb-2 text-yellow-400">Track Scores</h4>
-            <p className="text-gray-300 text-sm">We update during games so you can follow your team live.</p>
+            <p className="text-gray-300 text-sm">Follow your team with updates after every game.</p>
             </div>
+            </Link>
           </Reveal>
         </div>
       </div>

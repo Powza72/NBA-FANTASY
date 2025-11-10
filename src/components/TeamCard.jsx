@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useRef } from "react";
 
 export default function TeamCard({ player, team }) {
-  const nameParts = player.name.split(" ");
+  const videoRef = useRef(null);
+
+  const nameParts = (player.name || "").split(" ");
   const firstName = nameParts[0] || "";
   const lastName = nameParts.slice(1).join(" ") || "";
 
@@ -15,7 +17,7 @@ export default function TeamCard({ player, team }) {
     "SG/SF": "GUARD-FORWARD",
   };
   const fullPosition =
-    positionMap[player.position] || player.position.toUpperCase();
+    positionMap[player.position] || (player.position || "").toUpperCase();
 
   const handleAddPlayer = () => {
     const savedPlayers =
@@ -27,7 +29,22 @@ export default function TeamCard({ player, team }) {
     const updated = [...savedPlayers, player];
     localStorage.setItem("fantasyPlayers", JSON.stringify(updated));
     alert(`${player.name} added to your Fantasy team!`);
-    
+  };
+
+  // Handlers to control video playback (when hovering the whole image area)
+  const handleMouseEnter = () => {
+    if (videoRef.current) {
+      // play returns a promise in some browsers — ignore errors
+      videoRef.current.play().catch(() => {});
+    }
+  };
+  const handleMouseLeave = () => {
+    if (videoRef.current) {
+      videoRef.current.pause();
+      try {
+        videoRef.current.currentTime = 0;
+      } catch (e) {}
+    }
   };
 
   return (
@@ -35,7 +52,7 @@ export default function TeamCard({ player, team }) {
       className="
         bg-white rounded-2xl shadow-sm overflow-hidden 
         w-full max-w-[20rem] sm:max-w-[20rem]
-        ml-0.5 sm:ml-0
+        ml-9 sm:ml-0
         border border-gray-200 
         transition-all duration-300 
         hover:shadow-xl hover:-translate-y-1
@@ -48,8 +65,13 @@ export default function TeamCard({ player, team }) {
         </span>
       </div>
 
-      {/* Player image */}
-      <div className="bg-gray-50 overflow-hidden">
+      {/* Player image + hover video */}
+      <div
+        className="relative bg-gray-50 overflow-hidden group"
+        onMouseEnter={player.video ? handleMouseEnter : undefined}
+        onMouseLeave={player.video ? handleMouseLeave : undefined}
+      >
+        {/* รูปนิ่ง */}
         <img
           src={
             player.img ||
@@ -58,8 +80,29 @@ export default function TeamCard({ player, team }) {
             )}&background=888&color=fff&size=256`
           }
           alt={player.name}
-          className="w-full h-52 sm:h-56 object-cover transition-transform duration-500 hover:scale-105"
+          className="w-full h-52 sm:h-56 object-cover transition-transform duration-500 group-hover:scale-110"
         />
+
+        {/* วิดีโอ */}
+        {player.video && (
+          <video
+            ref={videoRef}
+            src={player.video}
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            className="absolute top-0 left-0 w-full h-full object-cover opacity-0 transition-all duration-500 group-hover:scale-100"
+            onMouseEnter={(e) => e.currentTarget.play()}
+            onMouseLeave={(e) => {
+              e.currentTarget.pause();
+              e.currentTarget.currentTime = 0;
+            }}
+            onPlay={(e) => (e.currentTarget.style.opacity = "1")}
+            onPause={(e) => (e.currentTarget.style.opacity = "0")}
+          />
+        )}
       </div>
 
       {/* Info section */}
@@ -92,7 +135,9 @@ export default function TeamCard({ player, team }) {
           </div>
           <div>
             <p className="text-[9px] sm:text-[10px] text-gray-400">INJURY</p>
-            <p className="text-lg text-red-700  font-bold">{player.injury || "--"} </p>
+            <p className="text-lg text-red-700  font-bold">
+              {player.injury || "--"}
+            </p>
           </div>
         </div>
 
