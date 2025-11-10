@@ -26,6 +26,8 @@ function TeamDetail() {
     return teams.find(t => (t.abbr || '').toUpperCase() === key)
   }, [teams, abbr])
 
+  
+
   if (loading) return <div className="container mx-auto px-4 py-8 text-white">Loading…</div>
   if (error) return <div className="container mx-auto px-4 py-8 text-red-400">{error}</div>
   if (!team) return <div className="container mx-auto px-4 py-8 text-yellow-400">Team not found.</div>

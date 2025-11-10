@@ -24,6 +24,7 @@ function Team({ onSelect }) {
     }
   });
 
+  // filter ตาม search
   const filteredTeams = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return teams;
@@ -34,6 +35,7 @@ function Team({ onSelect }) {
     );
   }, [query, teams]);
 
+  // เลือกทีม
   const handlePick = (team) => {
     setChosen(team.name);
     try {
@@ -45,8 +47,9 @@ function Team({ onSelect }) {
   };
 
   return (
-    <section id="teams" className="bg-gray-800 text-white">
+    <section id="teams" className="bg-gray-800 text-white min-h-screen">
       <div className="container mx-auto px-4 py-8">
+        {/* Header */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
           <h1 className="text-2xl md:text-3xl font-extrabold">Select Team</h1>
           <div className="flex-1 md:max-w-sm">
@@ -67,35 +70,56 @@ function Team({ onSelect }) {
           </div>
         )}
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
-          {filteredTeams.map((team) => (
-            <button
-              key={team.abbr || team.name}
-              onClick={() => handlePick(team)}
-              className="group bg-gray-900 border border-gray-700 rounded-xl p-4 text-left hover:border-yellow-400 transition flex items-center gap-3"
-            >
-              <div className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center border border-gray-700 group-hover:border-yellow-400 overflow-hidden">
-                {team.logo ? (
-                  <img
-                    src={team.logo}
-                    alt={team.name}
-                    className="w-full h-full object-contain"
-                  />
-                ) : (
-                  <span className="text-yellow-400 text-sm font-bold">
-                    {team.abbr || "?"}
-                  </span>
-                )}
-              </div>
+        {/* Grid ทีม */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          {filteredTeams.map((team) => {
+            // คำนวณ average ของแต่ละทีม
+            const avg =
+              team.players && team.players.length > 0
+                ? (
+                    team.players.reduce(
+                      (sum, p) => sum + (p.price || 0),
+                      0
+                    ) / team.players.length
+                  ).toFixed(1)
+                : 0;
 
-              <div>
-                <div className="text-sm font-semibold">
-                  {team.name || team.team}
+            const isChosen = chosen === (team.name || team.team);
+
+            return (
+              <button
+                key={team.abbr || team.name}
+                onClick={() => handlePick(team)}
+                className={`group flex flex-col items-start bg-gray-900 border rounded-xl p-4 text-left transition gap-3
+                  ${isChosen ? "border-yellow-400" : "border-gray-700"}
+                  hover:border-yellow-400`}
+              >
+                <div className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center border overflow-hidden">
+                  {team.logo ? (
+                    <img
+                      src={team.logo}
+                      alt={team.name}
+                      className="w-full h-full object-contain"
+                    />
+                  ) : (
+                    <span className="text-yellow-400 text-sm font-bold">
+                      {team.abbr || "?"}
+                    </span>
+                  )}
                 </div>
-                <div className="text-xs text-gray-400">Tap to select</div>
-              </div>
-            </button>
-          ))}
+
+                <div className="flex-1">
+                  <div className="text-sm font-semibold">
+                    {team.name || team.team}
+                  </div>
+                  <div className="text-xs text-gray-400">Tap to select</div>
+                  <div className="text-xs text-gray-300 mt-1">
+                  Average Player Price = <span className="text-yellow-300 font-bold"> {avg}</span> M
+                  </div>
+                </div>
+              </button>
+            );
+          })}
         </div>
       </div>
     </section>

@@ -2,31 +2,62 @@ import React, { useEffect, useState } from "react";
 
 export default function Fantasy() {
   const [players, setPlayers] = useState([]);
+  const [money, setMoney] = useState(200); // 💰 เงินเริ่มต้น 100M
 
   useEffect(() => {
     const saved = JSON.parse(localStorage.getItem("fantasyPlayers")) || [];
     setPlayers(saved);
+
+    // 🔹 คำนวณเงินที่เหลือตามราคาผู้เล่นใน localStorage
+    const totalSpent = saved.reduce((sum, p) => sum + (p.price || 0), 0);
+    setMoney(200 - totalSpent);
   }, []);
 
-  // 🟢 ลบผู้เล่นรายคน
+  // 🔹 ซื้อผู้เล่น
+  const handleBuyPlayer = (player) => {
+    if (money >= player.price) {
+      const updated = [...players, player];
+      setPlayers(updated);
+      localStorage.setItem("fantasyPlayers", JSON.stringify(updated));
+
+      setMoney((prev) => prev - player.price);
+    } else {
+      alert("Not enough money!");
+    }
+  };
+
+  // 🔹 คืนเงินเมื่อลบนักเตะ
   const handleRemovePlayer = (name) => {
+    const removedPlayer = players.find((p) => p.name === name);
     const updated = players.filter((p) => p.name !== name);
     setPlayers(updated);
     localStorage.setItem("fantasyPlayers", JSON.stringify(updated));
+
+    if (removedPlayer) {
+      setMoney((prev) => prev + removedPlayer.price);
+    }
   };
 
-  // 🟢 รีเซ็ตทีมทั้งหมด
+  // 🔹 รีเซ็ตทีมและเงิน
   const handleReset = () => {
     if (window.confirm("Are you sure you want to reset your fantasy team?")) {
       setPlayers([]);
+      setMoney(200); // คืนค่าเงินเต็ม 100M
       localStorage.removeItem("fantasyPlayers");
     }
   };
 
-  // 🧮 คำนวณ Fantasy Points จาก p.stats
+  // 🔹 คำนวณคะแนน fantasy ของผู้เล่น
   const calculateFantasyPoints = (p) => {
     if (!p.stats) return 0;
-    const { points = 0, rebounds = 0, assists = 0, steals = 0, blocks = 0, turnovers = 0 } = p.stats;
+    const {
+      points = 0,
+      rebounds = 0,
+      assists = 0,
+      steals = 0,
+      blocks = 0,
+      turnovers = 0,
+    } = p.stats;
 
     return (
       points * 1 +
@@ -38,23 +69,25 @@ export default function Fantasy() {
     ).toFixed(1);
   };
 
-  // รวมคะแนนทั้งหมดของทีม
   const totalPoints = players
     .reduce((sum, p) => sum + parseFloat(calculateFantasyPoints(p) || 0), 0)
     .toFixed(1);
 
   return (
-    <div className="p-6">
+    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 p-6 text-white">
       {/* Header */}
-      <div className="flex justify-between items-center mb-6">
-        <h1 className="text-3xl text-amber-300 font-bold text-center flex-1">
-          My Fantasy Team
+      <div className="flex flex-col sm:flex-row justify-between items-center mb-8 gap-4">
+        <h1 className="text-4xl font-extrabold text-amber-400 tracking-wide drop-shadow-md">
+          My Team
+        </h1>
+        <h1 className="text-3xl font-extrabold tracking-wide drop-shadow-[0_0_8px_rgba(255,191,0,0.6)] bg-gradient-to-r from-amber-400 to-yellow-200 bg-clip-text text-transparent">
+          You now have {money.toFixed(1)} M
         </h1>
 
         {players.length > 0 && (
           <button
             onClick={handleReset}
-            className="bg-red-600 hover:bg-red-700 text-white font-semibold px-4 py-2 rounded-lg shadow-md transition"
+            className="bg-red-600 hover:bg-red-700 text-white font-semibold px-5 py-2 rounded-lg shadow-md transition transform hover:scale-105"
           >
             Reset Team
           </button>
@@ -63,42 +96,46 @@ export default function Fantasy() {
 
       {/* รวมคะแนนทีม */}
       {players.length > 0 && (
-        <div className="text-center mb-6 flex justify-center">
-          <p className="text-lg font-semibold text-red-700">
+        <div className="text-center mb-8">
+          <p className="text-lg font-semibold text-gray-200">
             Total Fantasy Points:
-            <span className="text-blue-600 ml-2 text-2xl font-bold">
-              {totalPoints}
-            </span>
+          </p>
+          <p className="text-4xl font-extrabold text-blue-400 drop-shadow-lg">
+            {totalPoints}
           </p>
         </div>
       )}
 
       {players.length === 0 ? (
-        <p className="text-center text-gray-500">No players selected yet.</p>
+        <p className="text-center text-gray-400 italic text-lg">
+          No players selected yet. Pick your dream team!
+        </p>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
           {players.map((p, index) => {
             const fantasyPoints = calculateFantasyPoints(p);
 
             return (
               <div
                 key={index}
-                className="bg-white shadow-md rounded-xl p-4 w-60 flex flex-col items-center"
+                className="bg-white/10 backdrop-blur-md shadow-xl rounded-2xl p-5 w-64 flex flex-col items-center border border-white/10 transition transform hover:scale-105 hover:bg-white/20"
               >
                 <img
                   src={p.img}
                   alt={p.name}
-                  className="w-full h-40 object-cover rounded-lg"
+                  className="w-full h-44 object-cover rounded-xl border border-white/10 shadow-md"
                 />
-                <h2 className="text-xl font-bold mt-2 text-center">{p.name}</h2>
-                <p className="text-center text-sm text-gray-600">
-                  {p.position}
-                </p>
+                <h2 className="text-xl font-bold mt-3 text-center text-amber-300">
+                  {p.name}
+                </h2>
+                <p className="text-sm text-gray-300">{p.position}</p>
 
                 {/* 🧮 Fantasy Points */}
-                <div className="mt-2 text-center">
-                  <span className="text-sm text-gray-500">Fantasy Pts</span>
-                  <p className="text-2xl font-bold text-blue-600">
+                <div className="mt-3 text-center bg-slate-800/70 rounded-xl py-2 px-4 w-full">
+                  <span className="block text-sm text-gray-400">
+                    Fantasy Points
+                  </span>
+                  <p className="text-2xl font-extrabold text-blue-400">
                     {fantasyPoints}
                   </p>
                 </div>
@@ -106,9 +143,9 @@ export default function Fantasy() {
                 {/* ปุ่ม Remove */}
                 <button
                   onClick={() => handleRemovePlayer(p.name)}
-                  className="mt-3 bg-gray-200 hover:bg-gray-300 text-red-600 font-semibold px-3 py-1 rounded-lg transition w-full"
+                  className="mt-4 bg-red-500/80 hover:bg-red-600 text-white font-semibold px-4 py-2 rounded-lg shadow-md transition w-full transform hover:scale-105"
                 >
-                  Remove
+                  Remove ({p.price}M)
                 </button>
               </div>
             );
