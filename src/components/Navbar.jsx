@@ -9,10 +9,10 @@ const Navbar = () => {
     <nav className="bg-gray-900 text-white shadow-md relative">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-2xl font-bold">NBA Fantasy</div>
+        <div className="text-2xl font-bold"><span className='text-yellow-400'>Triple</span> Double</div>
 
         {/* Menu (Desktop) */}
-        <ul className="hidden md:flex space-x-6">
+        <ul className="hidden md:flex space-x-6 font-bold">
           <li><Link to="/" className="hover:text-yellow-400 transition">Home</Link></li>
           <li><Link to="/team" className="hover:text-yellow-400 transition">Teams</Link></li>
           <li><Link to="/players" className="hover:text-yellow-400 transition">Team of the Week</Link></li>

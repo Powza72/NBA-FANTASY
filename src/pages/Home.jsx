@@ -40,7 +40,7 @@ function Home() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <Reveal>
             <h1 className="text-3xl md:text-4xl font-extrabold mb-4">
-              Welcome to <span className="text-yellow-400">NBA Fantasy</span>
+              Welcome to <span className="text-yellow-400">TripleDouble</span>
             </h1>
             <p className="text-gray-300 mb-6">
               Build your dream team, track real game stats, and compete with friends.
